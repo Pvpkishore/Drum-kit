@@ -3,12 +3,40 @@ body {
   background-color: #283149;
 }
 
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top:10px;
+}
+
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style-type: none;
+}
+
+.LinkedIn{
+  height:50px;
+}
+.GitHub{
+  height:50px;
+}
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #ec066e;
+  text-shadow: 3px 0 #e8244b;
 
+}
+h2{
+  color: #DBEDF3;
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-shadow: 3px 0 #e8244b;
 }
 
 footer {
